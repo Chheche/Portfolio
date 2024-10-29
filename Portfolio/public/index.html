@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael BARRETO</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <nav id = "desktop-nav">
+            <div class="logo ztext" onclick="reloadPage()">Rafael BARRETO</div>
+            <div class="navigation">
+                <ul class = "nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <span id="about" class="title">About</span>
+        <div class="about">
+            <div class="profile-container">                                                                             
+                <p class="sous-title">Profil</p>
+                <p class="section_text_p1">I'm Rafael Barreto Pannetier, a developer based in France.<br><br>I'm particularly interested in development, especially blockchain and artificial intelligence. I'm quietly confident, naturally curious, and perpetually working on improving my chops.</p>
+                    <div class="social-container">
+                        <div class="social-font" onmouseover="showName('github')" onmouseout="hideName('github')">
+                            <div class="language-icon">
+                                <img src="img/github-icon.png" alt="github-image" class="icon" onclick="location.href='https://github.com/Chheche'" width="30px">
+                            </div>
+                            <p class="name" id="githubName">Github</p>
+                        </div>
+                        <div class="social-font" onmouseover="showName('linkedin')" onmouseout="hideName('linkedin')">
+                            <div class="language-icon">
+                                <img src="img/linkedin-icon.png" alt="linkedin-image" class="icon" onclick="location.href='https://www.linkedin.com/in/barreto-pannetier'" width="30px">
+                            </div>
+                            <p class="name" id="linkedinName">Linkedin</p>
+                        </div>
+                    </div>
+                    <div class="button-behaviour">
+                        <button id="telecharger" class="beautiful-button">Télécharger CV</button>
+                    </div>
+            </div>
+            <div class="container">
+                <div class="language-container">
+                    <div class="language-line">
+                        <div class="language-box javascript" onmouseover="showName('javascript')" onmouseout="hideName('javascript')">
+                            <p class="language-name" id="javascriptName">JavaScript</p>
+                            <div class="language-icon">
+                                <img src="img/javascript.png" alt="python-image" width="30px">
+                            </div>
+                        </div>
+                        <div class="language-box python" onmouseover="showName('python')" onmouseout="hideName('python')">
+                            <p class="language-name" id="pythonName">Python</p>
+                            <div class="language-icon">
+                                <img src="img/python.png" alt="python-image" width="30px">
+                            </div>
+                        </div>
+                        <div class="language-box css" onmouseover="showName('css')" onmouseout="hideName('css')">
+                            <p class="language-name" id="cssName">CSS</p>
+                            <div class="language-icon">
+                                <img src="img/css.png" alt="css-image" width="30px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-line">
+                        <div class="language-box c" onmouseover="showName('c')" onmouseout="hideName('c')">
+                            <p class="language-name" id="cName">C</p>
+                            <div class="language-icon">
+                                <img src="img/c.png" alt="c-image" width="30px">
+                            </div>
+                        </div>
+                        <div class="language-box sql" onmouseover="showName('sql')" onmouseout="hideName('sql')">
+                            <p class="language-name" id="sqlName">Sql</p>
+                            <div class="language-icon">
+                                <img src="img/sql.png" alt="sql-image" width="30px">
+                            </div>
+                        </div>
+                        <div class="language-box java" onmouseover="showName('java')" onmouseout="hideName('java')">
+                            <p class="language-name" id="javaName">Java</p>
+                            <div class="language-icon">
+                                <img src="img/java.png" alt="java-image" width="30px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language-line">
+                        <div class="language-box php" onmouseover="showName('php')" onmouseout="hideName('php')">
+                            <p class="language-name" id="phpName">Php</p>
+                            <div class="language-icon">
+                                <img src="img/php.png" alt="php-image" width="30px">
+                            </div>
+                        </div>
+                        <div class="language-box html" onmouseover="showName('HTML')" onmouseout="hideName('HTML')">
+                            <p class="language-name" id="HTMLName">HTML</p>
+                            <div class="language-icon">
+                                <img src="img/html.png" alt="html-image" width="30px">
+                            </div>
+                        </div>
+                        <div class="language-box vs" onmouseover="showName('vs')" onmouseout="hideName('vs')">
+                            <p class="language-name" id="vsName">Visual Studio</p>
+                            <div class="language-icon">
+                                <img src="img/visual-studio.png" alt="vs-image" width="30px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-img">
+                    <img class="c1" src="img/img1.png" alt="image1" width="300px">
+                    <img class="c2" src="img/img2.png" alt="image2" width="300px">
+                    <img class="c3" src="img/img3.png" alt="image3" width="300px">
+                    <img class="c4" src="img/img4.png" alt="image4" width="300px">
+                </div>
+            </div>
+        </div>
+        <span id="project" class="title">Projects</span>
+        <div class="project">
+            <div class="project-container">
+                <div class="project-box">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front card-front3">
+                                <div class="card-condition">
+                                    <img src="img/project3.png" class="monImage" alt="project3" width="410px">
+                                </div>
+                          </div>
+                            <div class="card-back card-back3">
+                                <div class="card-condition-back">
+                                    <img src="img/project3.png" alt="project3" width="410px">
+                                </div>
+                                <div class="card-box">
+                                    <div class="project-date">
+                                        <p>Janvier 2024</p>
+                                    </div>
+                                    <div class="project-commentary">
+                                        <p>Wallet is a site that lets you manage your wallet. It allows you to centralize your finances for greater control.</p>
+                                    </div>
+                                    <div>
+                                        <img src="img/html-blanc.png" alt="java-image" width="30px">
+                                        <img src="img/css-blanc.png" alt="java-image" width="30px">
+                                        <img src="img/javascript-blanc.png" alt="java-image" width="30px">
+                                        <img src="img/php-blanc.png" alt="java-image" width="30px"> 
+                                    </div> 
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                    <p class="project-description">Wallet</p>
+                </div>
+                <div class="project-box">
+                    <div class="card">
+                        <div class="card-inner">
+                          <div class="card-front card-front2">
+                                <div class="card-condition">
+                                    <img src="img/project2.png" class="monImage" alt="project2" width="410px">
+                                </div>
+                          </div>
+                          <div class="card-back card-back2">
+                                <div class="card-condition-back">
+                                    <img src="img/project2.png" alt="project2" width="410px">
+                                </div>
+                                <div class="card-box">
+                                    <div class="project-date">
+                                        <p>Décembre 2023</p>
+                                    </div>
+                                    <div class="project-commentary">
+                                        <p>Insight Green is a website about ecology designed during the info night. Its aim is to raise awareness of green issues.</p>
+                                    </div>
+                                    <div>
+                                        <img src="img/html-blanc.png" alt="python-image" width="30px">
+                                        <img src="img/javascript-blanc.png" alt="python-image" width="30px">   
+                                    </div> 
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                    <p class="project-description">Insight Green</p>
+                </div>
+                <div class="project-box">
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front card-front1">
+                                <div class="card-condition">
+                                    <img src="img/project1.png" class="monImage" alt="project1" width="410px">
+                                </div>
+                          </div>
+                            <div class="card-back card-back1">
+                                <div class="card-condition-back">
+                                    <img src="img/project1.png" alt="project1" width="410px">
+                                </div>
+                                <div class="card-box">
+                                    <div class="project-date">
+                                        <p>Juin 2023</p>
+                                    </div>
+                                    <div class="project-commentary">
+                                        <p>Tenkaichi Brain is a puzzle game based on the Dragon Ball universe. The game is divided into 5 levels to be solved.</p>
+                                    </div>
+                                    <div>
+                                        <img src="img/java-blanc.png" alt="java-image" width="30px"> 
+                                    </div> 
+                                </div>
+                          </div>
+                        </div>
+                    </div>
+                    <p class="project-description">Tenkaichi Brain</p>
+                </div>
+            </div>
+        </div>
+        <span id="experience" class="title">Experience</span>
+        <div class="experience">
+            <div class="experience-container">
+                <div class="front-container">
+                    <p class="sous-title1">Front-End</p>
+                    <div class="first-ligne">
+                        <div class="language-box-1 html" onmouseover="showName('HTML0')" onmouseout="hideName('HTML0')">
+                            <p class="language-name0" id="HTML0Name">HTML</p>
+                                <div class="language-icon">
+                                    <img src="img/html.png" alt="html-image" width="45px">
+                                </div>
+                        </div>
+                        <div class="language-box-1 css" onmouseover="showName('CSS0')" onmouseout="hideName('CSS0')">
+                            <p class="language-name0" id="CSS0Name">CSS</p>
+                            <div class="language-icon">
+                                <img src="img/css.png" alt="css-image" width="45px">
+                            </div>
+                        </div>
+                        <div class="language-box-1 javascript" onmouseover="showName('javascript0')" onmouseout="hideName('javascript0')">
+                            <p class="language-name0" id="javascript0Name">JavaScript</p>
+                            <div class="language-icon">
+                                <img src="img/javascript.png" alt="python-image" width="45px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="back-container">
+                    <p class="sous-title1">Back-End</p>
+                    <div class="first-ligne">
+                        <div class="language-box-1 php" onmouseover="showName('php0')" onmouseout="hideName('php0')">
+                            <p class="language-name0" id="php0Name">Php</p>
+                            <div class="language-icon">
+                                <img src="img/php.png" alt="php-image" width="45px">
+                            </div>
+                        </div>
+                        <div class="language-box-1 sql" onmouseover="showName('sql0')" onmouseout="hideName('sql0')">
+                            <p class="language-name0" id="sql0Name">Sql</p>
+                            <div class="language-icon">
+                                <img src="img/sql.png" alt="sql-image" width="45px">
+                            </div>
+                        </div>
+                        <div class="language-box-1 python" onmouseover="showName('python0')" onmouseout="hideName('python0')">
+                            <p class="language-name0" id="python0Name">Python</p>
+                            <div class="language-icon">
+                                <img src="img/python.png" alt="python-image" width="45px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span id="contact" class="title">Contact</span>
+        <div class="contact">
+            <div class="contact-container">
+                <form class="form-container" method="post">
+                    <div class="contact-ligne">
+                        <div class="box-ligne">
+                            <label class="input-color">Nom</label>
+                            <br>
+                            <input type="text" placeholder="Barreto Rafael" class="form-input taille1" name="full_name" required>
+                        </div>
+                        <div class="box-ligne">
+                            <label class="input-color">Email</label>
+                            <br>
+                            <input type="text" placeholder="pro@rafael.com" class="form-input taille1" name="email" required>
+                        </div>
+                    </div>
+                    <div class="contact-ligne">
+                        <div class="box-ligne">
+                            <label class="input-color">Objet</label>
+                            <br>
+                            <input type="text" placeholder="Site web, Recrutement..." class="form-input taille2" name="objet" required>
+                        </div>
+                    </div>
+                    <div class="contact-ligne">
+                        <div class="box-ligne">
+                            <label class="input-color">Message</label>
+                            <br>
+                            <textarea cols="30" rows="10" placeholder="Bonjour..." class="form-input taille3" name="message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="button-behaviour">
+                        <button class="submit-button" type="submit" name="submit">Submit</button>
+                    </div>
+                </form>
+                <div class="social-container">
+                    <div class="social-font" onmouseover="showName('github1')" onmouseout="hideName('github1')">
+                        <div class="language-icon">
+                            <img src="img/github-icon.png" alt="github-image" class="icon" onclick="location.href='https://github.com/Chheche'" width="30px">
+                        </div>
+                        <p class="name" id="github1Name">Github</p>
+                    </div>
+                    <div class="social-font" onmouseover="showName('linkedin1')" onmouseout="hideName('linkedin1')">
+                        <div class="language-icon">
+                            <img src="img/linkedin-icon.png" alt="linkedin-image" class="icon" onclick="location.href='https://www.linkedin.com/in/barreto-pannetier'" width="30px">
+                        </div>
+                        <p class="name" id="linkedin1Name">Linkedin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <small>Rafael Barreto © 2024</small>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyD2QKvkIxCUDQ6V_z8AnfNLSigkLmPBIhA",
+        authDomain: "raf-portfolio.firebaseapp.com",
+        projectId: "raf-portfolio",
+        storageBucket: "raf-portfolio.appspot.com",
+        messagingSenderId: "590129618236",
+        appId: "1:590129618236:web:04bda80e234e886d9c5239",
+        measurementId: "G-308M0EV26C"
+      };
+
+      // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
